@@ -1,0 +1,4 @@
+#Retrieve all records where the duration is GREATER THAN > OR = to 94 minutes
+SELECT *
+FROM movies
+WHERE duaration >= 94;
