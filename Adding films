@@ -1,2 +1,3 @@
+#Task, add a film with a title of The Wind, genre of Romance and duration of 95 to the MOVIES table.
 INSERT INTO movies (title, genre, duration)
 VALUES ('The Wind', 'Romance', 95);
