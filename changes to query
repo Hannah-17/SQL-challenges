@@ -1,0 +1,7 @@
+#change the query list to list items that are either 'soda' or 'popcorn'
+SELECT ITEM, SIZE, PRICE
+FROM concessions
+WHERE ITEM = 'Soda'
+OR ITEM = 'Popcorn'
+ORDER BY DESC;
+#To order by Ascending or Descending query: ORDER by ASC; ORDER by DESC;
