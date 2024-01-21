@@ -1,0 +1,10 @@
+#Change the item of Pizza to Hamburger.
+UPDATE concessions
+SET item = 'Hamburger'
+WHERE ID = 8;
+
+#There is a special on Popcorn and Candy, let's add another query to change the price for all Popcorn and Candy to 1.00.
+UPDATE concessions
+SET price = 1.00
+WHERE item = 'Popcorn'
+OR item = 'Candy';
