@@ -1,0 +1,8 @@
+#I've lost my sense of humor. Please write a SQL statement to DELETE all the movies that have a genre of Comedy.
+DELETE FROM movies
+WHERE genre = 'Comedy';
+
+#I also have a short attention span and I hate vampires. Please write a statement to remove all movies that have a duration of greater than 120 minutes or are called Nosferatu.
+DELETE FROM movies
+WHERE duration > 120
+OR title = 'Nosferatu';
