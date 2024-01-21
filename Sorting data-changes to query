@@ -1,3 +1,8 @@
+#Write a query to find the item, price, and size for all items that are Popcorn.
+SELECT ITEM, PRICE, SIZE
+FROM CONCESSION
+WHERE ITEM = 'Popcorn';
+
 #change the query list to list items that are either 'soda' or 'popcorn'
 SELECT ITEM, SIZE, PRICE
 FROM concessions
