@@ -1,0 +1,4 @@
+#First, insert the following: a concession with item of Nachos with a Regular size.
+INSERT INTO concessions (item, size)
+VALUES ('Nachos', 'Regular');
+#Below your first statement, insert a separate item of Pizza with a price of 2.00 at an id of 8. 
