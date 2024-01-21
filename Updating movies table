@@ -1,0 +1,4 @@
+#Update the movies table, setting genre to comedy where the id is 1
+UPDATE movies
+SET genre = Comedy
+WHERE id = 1;
