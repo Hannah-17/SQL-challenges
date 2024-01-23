@@ -1,0 +1,13 @@
+#Using the data below, create a table called advertisements, with columns id, type, category, and cost.
+CREATE TABLE advertisements
+(
+id int
+type varchar (10),
+category varchar (10)
+cost int
+);
+
+#Great -- now let's add the data from the first row, with id of 1, to our table.
+#Note: insert all values explicitly, including inserting the 1 into the id column. See Level 2 for a refresher on insert!
+INSERT INTO advertisements (id)
+VALUES (1);
